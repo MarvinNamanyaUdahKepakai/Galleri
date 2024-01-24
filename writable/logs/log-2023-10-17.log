@@ -1,0 +1,50 @@
+CRITICAL - 2023-10-17 21:05:06 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('bayar', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(274): view('bayar', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-17 21:32:46 --> Invalid file: terima_jadwal.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('terima_jadwal.p...')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('terima_jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(124): view('terima_jadwal')
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->terima_jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-17 21:45:47 --> Invalid file: terima_jadwal.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('terima_jadwal.p...')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('terima_jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(124): view('terima_jadwal')
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->terima_jadwal('8')
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-17 21:54:40 --> Invalid file: terima_jadwal.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('terima_jadwal.p...')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('terima_jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(124): view('terima_jadwal')
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->terima_jadwal('8')
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-17 22:00:43 --> Invalid file: terima_jadwal.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('terima_jadwal.p...')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('terima_jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(124): view('terima_jadwal')
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->terima_jadwal('8')
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

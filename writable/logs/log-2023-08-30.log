@@ -1,0 +1,56 @@
+CRITICAL - 2023-08-30 21:05:13 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 21:05:16 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 21:05:35 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 21:10:31 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 21:18:06 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 21:18:10 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 21:19:26 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-30 22:06:17 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

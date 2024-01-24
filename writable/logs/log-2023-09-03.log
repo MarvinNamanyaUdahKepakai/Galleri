@@ -1,0 +1,40 @@
+CRITICAL - 2023-09-03 09:34:38 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\perjalanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home')
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home')
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-03 09:35:02 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\perjalanan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home')
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home')
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-03 09:36:47 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\perjalanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\perjalanan\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\perjalanan\app\Controllers\Home.php(91): view('menu')
+#3 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-03 21:40:59 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-03 21:41:03 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

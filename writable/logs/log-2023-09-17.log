@@ -1,0 +1,35 @@
+CRITICAL - 2023-09-17 00:02:20 --> Invalid file: menuutama.php
+#0 C:\xampp\htdocs\buku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menuutama.php')
+#1 C:\xampp\htdocs\buku\system\Common.php(1089): CodeIgniter\View\View->render('menuutama', Array, true)
+#2 C:\xampp\htdocs\buku\app\Controllers\Home.php(75): view('menuutama')
+#3 C:\xampp\htdocs\buku\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\buku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\buku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\buku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\buku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-17 02:02:19 --> Invalid file: kelas.php
+#0 C:\xampp\htdocs\buku\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelas.php')
+#1 C:\xampp\htdocs\buku\system\Common.php(1089): CodeIgniter\View\View->render('kelas', Array, true)
+#2 C:\xampp\htdocs\buku\app\Controllers\Kelas.php(15): view('kelas', Array)
+#3 C:\xampp\htdocs\buku\system\CodeIgniter.php(832): App\Controllers\Kelas->index()
+#4 C:\xampp\htdocs\buku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#5 C:\xampp\htdocs\buku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\buku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\buku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-17 22:04:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-09-17 22:04:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\buku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\buku\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\buku\app\Models\M_model.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\buku\app\Controllers\Kelas.php(12): App\Models\M_model->tampil('kelas')
+#4 C:\xampp\htdocs\buku\system\CodeIgniter.php(832): App\Controllers\Kelas->index()
+#5 C:\xampp\htdocs\buku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#6 C:\xampp\htdocs\buku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\buku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\buku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

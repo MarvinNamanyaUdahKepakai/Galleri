@@ -1,0 +1,96 @@
+CRITICAL - 2023-10-09 20:17:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\parttime\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\parttime\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(107): CodeIgniter\Model->__call('jpin2', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-10-09 20:18:40 --> Unknown column 'user.created_at' in 'order clause'
+CRITICAL - 2023-10-09 20:18:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(107): App\Models\M_model->joinuser('user', 'level', 'user.level=leve...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 20:19:33 --> Invalid file: user/view.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/view.php')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('user/view', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(110): view('user/view', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 20:20:01 --> Invalid file: view.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(110): view('view', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 20:20:18 --> Invalid file:  user.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile(' user.php')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render(' user', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(110): view(' user', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 20:20:19 --> Invalid file:  user.php
+#0 C:\xampp\htdocs\parttime\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile(' user.php')
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render(' user', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(110): view(' user', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 20:21:33 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(110): view('user', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 20:23:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\parttime\app\Views\jadwal.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\parttime\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#4 C:\xampp\htdocs\parttime\app\Controllers\Home.php(95): view('jadwal')
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#6 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-09 20:24:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\parttime\app\Views\jadwal.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\parttime\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#4 C:\xampp\htdocs\parttime\app\Controllers\Home.php(95): view('jadwal')
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#6 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-09 20:24:47 --> Cannot redeclare App\Controllers\Home::user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

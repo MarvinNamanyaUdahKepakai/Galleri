@@ -1,0 +1,61 @@
+CRITICAL - 2023-08-29 22:06:08 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\perjalanan\app\Views\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\perjalanan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\perjalanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\perjalanan\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\perjalanan\app\Controllers\Home.php(92): view('dashboard')
+#5 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-29 22:29:18 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\perjalanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\perjalanan\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\perjalanan\app\Controllers\Home.php(91): view('menu')
+#3 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-29 22:46:11 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\perjalanan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\perjalanan\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\perjalanan\app\Controllers\Home.php(91): view('menu')
+#3 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-08-29 23:02:28 --> Table 'dbjalan.log' doesn't exist
+CRITICAL - 2023-08-29 23:43:44 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-29 23:43:52 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->pdf_b()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-29 23:43:55 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-29 23:44:13 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(832): App\Controllers\Home->excel_barang()
+#1 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\perjalanan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perjalanan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perjalanan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

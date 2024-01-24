@@ -1,0 +1,419 @@
+CRITICAL - 2023-10-10 07:20:35 --> Cannot redeclare App\Controllers\Home::aksi_tambah_user()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-10-10 08:37:38 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-10-10 08:37:51 --> Too few arguments to function App\Controllers\Home::delete_user(), 0 passed in C:\xampp\htdocs\parttime\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->delete_user()
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-10 08:38:51 --> Too few arguments to function App\Controllers\Home::delete_user(), 0 passed in C:\xampp\htdocs\parttime\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->delete_user()
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-10 08:39:17 --> Too few arguments to function App\Controllers\Home::delete_user(), 0 passed in C:\xampp\htdocs\parttime\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->delete_user()
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-10-10 08:39:41 --> Unknown column 'jadwal' in 'where clause'
+CRITICAL - 2023-10-10 19:20:05 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 19:20:27 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 19:20:32 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/dashboard')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/dashboard')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 19:20:33 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bayar')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/bayar')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 19:20:34 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/jadwal')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/jadwal')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 19:51:27 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 19:52:00 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 19:52:20 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 19:52:26 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:09:21 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:10:32 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:10:33 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:10:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:13:16 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:13:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:13:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:13:39 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:13:39 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:13:42 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:14:35 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:17:01 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:19:12 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:19:33 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:19:36 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:19:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:19:40 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:20:26 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:20:34 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:21:13 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:21:21 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:53:18 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:53:22 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('jadwal', Array, true)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(98): view('jadwal', Array)
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-10 20:53:55 --> Too few arguments to function App\Controllers\Home::edit_user(), 0 passed in C:\xampp\htdocs\parttime\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->edit_user()
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-10 20:59:37 --> Too few arguments to function App\Models\M_model::qedit(), 2 passed in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 200 and exactly 3 expected
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(200): App\Models\M_model->qedit('user', Array)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:13:40 --> Too few arguments to function App\Models\M_model::qedit(), 2 passed in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 203 and exactly 3 expected
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(203): App\Models\M_model->qedit('user', Array)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:16:37 --> Too few arguments to function App\Models\M_model::qedit(), 2 passed in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 203 and exactly 3 expected
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(203): App\Models\M_model->qedit('user', Array)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:21:35 --> Too few arguments to function App\Models\M_model::qedit(), 2 passed in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 203 and exactly 3 expected
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(203): App\Models\M_model->qedit('user', Array)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-10 21:23:42 --> Too few arguments to function App\Models\M_model::qedit(), 2 passed in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 203 and exactly 3 expected
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(203): App\Models\M_model->qedit('user', Array)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->aksi_edit_user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-10 21:24:05 --> Unknown column 'user' in 'where clause'
+ERROR - 2023-10-10 21:24:15 --> Unknown column 'user' in 'where clause'
+ERROR - 2023-10-10 21:24:16 --> Unknown column 'user' in 'where clause'
+ERROR - 2023-10-10 21:24:18 --> Unknown column 'user' in 'where clause'
+CRITICAL - 2023-10-10 21:42:36 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\parttime\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\parttime\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\parttime\app\Controllers\Home.php(219): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-10 21:42:39 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\parttime\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\parttime\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\parttime\app\Controllers\Home.php(93): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->jadwal()
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-10 21:43:09 --> Cannot redeclare App\Models\M_model::tampil()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-10 21:45:16 --> Cannot redeclare App\Models\M_model::tampil()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-10 21:57:36 --> Cannot redeclare App\Models\M_model::tampil()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-10-10 22:05:31 --> Unknown column 'user' in 'where clause'

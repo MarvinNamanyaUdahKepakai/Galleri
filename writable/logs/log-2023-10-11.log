@@ -1,0 +1,71 @@
+ERROR - 2023-10-11 21:02:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-10-11 21:02:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\parttime\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\parttime\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\parttime\app\Models\M_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\parttime\app\Controllers\Home.php(142): App\Models\M_model->joinuser('user', 'level', 'user.level=leve...')
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-11 21:14:03 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/laporan')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/laporan')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-11 21:14:16 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\parttime\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/laporan')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/laporan')
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-11 21:14:38 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 236
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(236): view('filters', NULL)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-11 21:14:41 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 236
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(236): view('filters', NULL)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-11 21:14:46 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 236
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(236): view('filters', NULL)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-11 21:20:57 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 236
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(236): view('filters', NULL)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-11 22:00:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\parttime\app\Controllers\Home.php on line 236
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(236): view('filters', NULL)
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->laporan()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,56 @@
+CRITICAL - 2023-08-21 07:25:36 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:25:39 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:25:43 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:28:35 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:28:39 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:28:46 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:28:57 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:29:00 --> Too few arguments to function App\Controllers\Home::editcs(), 0 passed in C:\xampp\htdocs\antrian\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\antrian\system\CodeIgniter.php(832): App\Controllers\Home->editcs()
+#1 C:\xampp\htdocs\antrian\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antrian\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antrian\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antrian\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

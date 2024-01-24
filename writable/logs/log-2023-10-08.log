@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-08 21:36:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\parttime\app\Views\user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\parttime\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\parttime\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\parttime\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\parttime\app\Controllers\Home.php(107): view('user')
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#6 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

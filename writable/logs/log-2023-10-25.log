@@ -1,0 +1,9 @@
+ERROR - 2023-10-25 07:24:31 --> Unknown column 'bayar.tanggal' in 'where clause'
+CRITICAL - 2023-10-25 07:24:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(332): App\Models\M_model->filter2('bayar', '2023-10-09', '2023-10-21')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->cari_semua()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
