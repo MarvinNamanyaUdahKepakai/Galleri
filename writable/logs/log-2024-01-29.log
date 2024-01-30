@@ -1,0 +1,237 @@
+CRITICAL - 2024-01-29 21:03:35 --> Class 'App\Models\Teacher_model' not found
+#0 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2024-01-29 21:07:51 --> Table 'ptime.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:07:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:08:32 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:08:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:08:42 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:08:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:11:42 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:11:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:12:08 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:12:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:12:09 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:12:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:12:10 --> Unknown column 'user.created_at' in 'order clause'
+CRITICAL - 2024-01-29 21:12:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(276): App\Models\M_model->join2('user', 'level', 'user.level = le...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:12:12 --> Unknown column 'user.created_at' in 'order clause'
+CRITICAL - 2024-01-29 21:12:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(276): App\Models\M_model->join2('user', 'level', 'user.level = le...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:12:18 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:12:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:13:49 --> Unknown column 'user.created_at' in 'order clause'
+CRITICAL - 2024-01-29 21:13:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(276): App\Models\M_model->join2('user', 'level', 'user.level = le...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:13:52 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:13:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:13:54 --> Unknown column 'user.created_at' in 'order clause'
+CRITICAL - 2024-01-29 21:13:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(276): App\Models\M_model->join2('user', 'level', 'user.level = le...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:13:56 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:13:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:14:45 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:14:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:14:53 --> Unknown column 'penguna.created_at' in 'order clause'
+CRITICAL - 2024-01-29 21:14:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(66): App\Models\M_model->join2('penguna', 'user', 'penguna.user=us...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->penguna()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:14:55 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:14:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:14:58 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:14:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:15:20 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:15:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:15:21 --> Unknown column 'penguna.created_at' in 'order clause'
+CRITICAL - 2024-01-29 21:15:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\app\Controllers\Home.php(66): App\Models\M_model->join2('penguna', 'user', 'penguna.user=us...')
+#1 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->penguna()
+#2 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:15:23 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:15:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:15:25 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:15:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2024-01-29 21:15:27 --> Table 'dbjalan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:15:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\parttime\system\Model.php(728): CodeIgniter\Database\BaseBuilder->countAll()
+#1 C:\xampp\htdocs\parttime\app\Models\Teacher_model.php(14): CodeIgniter\Model->__call('countAll', Array)
+#2 C:\xampp\htdocs\parttime\app\Controllers\Home.php(262): App\Models\Teacher_model->getTeacherCount()
+#3 C:\xampp\htdocs\parttime\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\parttime\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\parttime\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\parttime\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\parttime\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -45,54 +45,54 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/jadwal" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/petugas" aria-expanded="false">
                 <span>
                   <i class="ti ti-alert-circle"></i>
                 </span>
-                <span class="hide-menu">Jadwal</span>
+                <span class="hide-menu">Petugas</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Home/bayar" aria-expanded="false">
+              <a class="sidebar-link" href="/Home/penguna" aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
-                <span class="hide-menu">Pembayaran</span>
+                <span class="hide-menu">Penguna</span>
               </a>
             </li>
-            <li class="sidebar-item">
+<!--             <li class="sidebar-item">
               <a class="sidebar-link" href="/Home/laporan" aria-expanded="false">
                 <span>
                   <i class="ti ti-file-description"></i>
                 </span>
                 <span class="hide-menu">Laporan</span>
               </a>
-            </li>
-            <!-- <li class="sidebar-item">
-              <a class="sidebar-link" href="/Kelas" aria-expanded="false">
+            </li> -->
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="Home/barang" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>
                 </span>
-                <span class="hide-menu">Kelas</span>
+                <span class="hide-menu">Barang</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Mapel" aria-expanded="false">
+              <a class="sidebar-link" href="Home/barang_masuk" aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
-                <span class="hide-menu">Mapel</span>
+                <span class="hide-menu">Barang Masuk</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="/Daftar" aria-expanded="false">
+              <a class="sidebar-link" href="Home/barang_keluar" aria-expanded="false">
                 <span>
                   <i class="ti ti-file-description"></i>
                 </span>
-                <span class="hide-menu">Daftar Tidak Hadir Siswa</span>
+                <span class="hide-menu">Barang Keluar</span>
               </a>
             </li>
-            <li class="sidebar-item">
+            <!-- <li class="sidebar-item">
               <a class="sidebar-link" href="/Batas" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>

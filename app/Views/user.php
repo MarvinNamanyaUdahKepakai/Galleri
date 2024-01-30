@@ -1,77 +1,112 @@
-<div class="body-wrapper">
-      <!--  Header Start -->
-      <header class="app-header">
+<div class="container-fluid" id="container-wrapper">
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Table User</h1>
+            
+          </div>
 
-            <li class="nav-item">
-              <a class="nav-link nav-icon-hover" href="javascript:void(0)">
-
-              </a>
-            </li>
-          </ul>
-          <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
-
-              <li class="nav-item dropdown">
-
-                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
-
+          <div class="row">
+            <div class="col-lg-12 mb-4">
+              <!-- Simple Tables -->
+              <div class="card">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">User</h6>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-
-        <div class="page-heading">
-          <div class="page-title">
-            <div class="row">
-              <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>User</h3>
-              </div>
-              
-            </div>
-          </div>
-
-          <!-- Basic Tables start -->
-          <section class="section">
-            <div class="card">
-              <div class="card-header">Data User</div>
-              <a href="<?=base_url('/Home/tambah_user/')?>" style="position: absolute; top: 10px; right: 10px;">
-                        <button class="btn btn-primary">Tambah</button>
-                    </a>
-              <div class="card-body">
                 <div class="table-responsive">
-                  <table class="table" id="table1">
-                    <thead>
+                  <table class="table align-items-center table-flush">
+                    <thead class="thead-light">
+                      <!--  <a href="<?= base_url('/home/tambah_user')?>"><button class="btn btn-success"><i class="fa fa-plus"></i></button></a> -->
                       <tr>
-                        <th>No</th>
-                        <th>Nama</th>
-                        <th>Umur</th>
-                        <th>Action</th>
+                        <th>NO</th>
+                        <th>Foto</th>
+                        <th>Username</th>
+                        <th>Level</th>
+                        <th>Reset pasword</th>
                       </tr>
                     </thead>
-                    <tbody>
-                    <?php 
-                                $no=1;
-                                  foreach ($a as $b) {
-                                    ?>
-                                    <tr>
-                                        <td><?php echo $no++ ?></td>
-                                        <td><?php echo $b->username?> </td>
-                                        <td><?php echo $b->umur?> </td>
-                                        <td>
-                                        <a href="<?=base_url('/Home/edit_user/'.$b->id_user)?>"><button class="btn btn-primary">Edit</button></a>
-                                        <a href="<?=base_url('/Home/delete_user/'.$b->id_user)?>"><button class="btn btn-danger">Delete</button></a>    
-                                        </td>
-
-                                    </tr>
-                                   <?php
-                                    }
-                                    ?>
-                    </tbody>
-                  </table>
+                   <!--  <tbody>
+                      <tr>
+                        <td><a href="#">RA0449</a></td>
+                        <td>Udin Wayang</td>
+                        <td>Nasi Padang</td>
+                        <td><span class="badge badge-success">Delivered</span></td>
+                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">RA5324</a></td>
+                        <td>Jaenab Bajigur</td>
+                        <td>Gundam 90' Edition</td>
+                        <td><span class="badge badge-warning">Shipping</span></td>
+                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">RA8568</a></td>
+                        <td>Rivat Mahesa</td>
+                        <td>Oblong T-Shirt</td>
+                        <td><span class="badge badge-danger">Pending</span></td>
+                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">RA1453</a></td>
+                        <td>Indri Junanda</td>
+                        <td>Hat Rounded</td>
+                        <td><span class="badge badge-info">Processing</span></td>
+                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">RA1998</a></td>
+                        <td>Udin Cilok</td>
+                        <td>Baby Powder</td>
+                        <td><span class="badge badge-success">Delivered</span></td>
+                        <td><a href="#" class="btn btn-sm btn-primary">Detail</a></td>
+                      </tr>
+                    </tbody> -->
+                 <!--  </table>
                 </div>
+                <div class="card-footer"></div>
               </div>
             </div>
-          </section>
-          <!-- Basic Tables end -->
-        </div>
+          </div> -->
+           <tbody>
+                        <?php
+      $no=1;
+      foreach ($okta as $evan) {
+
+        ?>
+
+       <tr>
+
+          <td><?php echo $no++ ?></td>
+          <td><img src="<?=base_url('images/'.$evan->foto)?>" height="100px"></td>
+          <td><?php echo $evan->username?> </td>
+          <td><?php echo $evan->nama_level?> </td>
+
+
+
+          <td>
+          <a class="btn btn-warning" href="<?php echo base_url('home/reset_password/'. $evan->id_user) ?>">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+              <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+          Reset Password</a>
+        </td>
+          <!-- <td><?php echo $evan->sesi?> </td> -->
+        <!--   <td><?php echo $evan->nik?> </td> -->
+          
+          
+          <!--  <td> 
+            <a href="<?=base_url('/home/edit_jadwal/'.$evan->id_guru)?>"> <button class="btn btn-primary"><i class="fa fa-edit"></i></button></a>
+            <a href="<?=base_url('/home/hapus_jadwal/'.$evan->id_jadwal)?>"> <button class="btn btn-danger"><i class="fa fa-trash"></i></button></a>
+
+          </td> 
+          
+
+        </tr> -->
+        <?php
+      }
+      ?>
+                        
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
